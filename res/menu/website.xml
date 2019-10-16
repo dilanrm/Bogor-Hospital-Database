@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item1"
+        android:title="info">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="website">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="lokasi">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:title="kontak">
+    </item>
+
+</menu>

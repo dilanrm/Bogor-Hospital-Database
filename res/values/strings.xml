@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Denah Rumah Sakit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="list_rs">List RS</string>
+    <string name="rs_terdekat">RS Terdekat</string>
+    <string name="title_activity_listrs">Listrs</string>
+    <string name="title_activity_terdekat">Terdekat</string>
+    <string name="title_activity_artikel">Artikel</string>
+    <string name="title_activity_about">About</string>
+    <string name="artikel">Artikel</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="large_text">Large Text</string>
+    <string name="title_activity_bmc">BMC</string>
+    <string name="title_activity_cibinong">Cibinong</string>
+    <string name="title_activity_husada">Husada</string>
+    <string name="title_activity_thamrin">Thamrin</string>
+    <string name="title_activity_pajajaran">Pajajaran</string>
+    <string name="title_activity_salak">Salak</string>
+    <string name="title_activity_azra">Azra</string>
+    <string name="title_activity_pratiwi">Pratiwi</string>
+    <string name="title_activity_bogor">Bogor</string>
+    <string name="title_activity_islam">Islam</string>
+    <string name="title_activity_ciawi">Ciawi</string>
+    <string name="title_activity_meliana">Meliana</string>
+    <string name="title_activity_login_register">LoginRegister</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_user_area">UserAreaActivity</string>
+    <string name="exit">Exit</string>
+    <string name="cari_rs_terdekat">Cari RS terdekat</string>
+    <string name="ganti_user">Ganti User</string>
+    <string name="menu_user">Menu User</string>
+    <string name="title_activity_tambahkan">Tambahkan</string>
+    <string name="title_activity_list">List</string>
+    <string name="petunjuk">petunjuk</string>
+    <string name="title_activity_website">Website</string>
+    <string name="title_activity_kontak">Kontak</string>
+    <string name="title_activity_lokasi">Lokasi</string>
+    <string name="title_activity_detail_artikel">DetailArtikel</string>
+    <string name="title_activity_map">Map</string>
+
+</resources>

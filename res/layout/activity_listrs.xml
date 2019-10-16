@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d88804afc3dde22148fe471fb0e56f34"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Listrs" >
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button7"
+        android:text="Karya Bhakti Pratiwi" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button5"
+        android:text="RS Salak" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:text="RS BMC" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button3"
+        android:text="Mulia Pajajaran" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:text="RSUD Cibinong" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/bLogin"
+        android:layout_below="@+id/bLogin"
+        android:text="RS Bina Husada" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignLeft="@+id/button2"
+        android:text="RSUD Bogor" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/button9"
+        android:text="RSUD Ciawi" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_below="@+id/button5"
+        android:text="RS Azra" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignLeft="@+id/button5"
+        android:text="RS Meliana" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_below="@+id/button12"
+        android:text="RS Islam" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_below="@+id/button7"
+        android:text="MH Thamrin" />
+
+    <Button
+        android:id="@+id/binfo"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignParentBottom="true"
+        android:text="Info" />
+
+    <Button
+        android:id="@+id/bkontak"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/bwebs"
+        android:layout_alignBottom="@+id/bwebs"
+        android:layout_alignParentRight="true"
+        android:text="kontak" />
+
+    <Button
+        android:id="@+id/bwebs"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/blokasi"
+        android:layout_alignBottom="@+id/blokasi"
+        android:layout_toLeftOf="@+id/bkontak"
+        android:text="webs" />
+
+    <Button
+        android:id="@+id/blokasi"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/binfo"
+        android:layout_alignBottom="@+id/binfo"
+        android:layout_toRightOf="@+id/binfo"
+        android:text="lokasi" />
+
+</RelativeLayout>

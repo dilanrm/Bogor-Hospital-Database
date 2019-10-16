@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.denahrumahsakit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launchers"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.denahrumahsakit.SpashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Listrs"
+            android:label="@string/title_activity_listrs" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Terdekat"
+            android:label="@string/title_activity_terdekat" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Artikel"
+            android:label="@string/title_activity_artikel" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.BMC"
+            android:label="@string/title_activity_bmc" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Cibinong"
+            android:label="@string/title_activity_cibinong" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Husada"
+            android:label="@string/title_activity_husada" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Thamrin"
+            android:label="@string/title_activity_thamrin" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Pajajaran"
+            android:label="@string/title_activity_pajajaran" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Salak"
+            android:label="@string/title_activity_salak" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Azra"
+            android:label="@string/title_activity_azra" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Pratiwi"
+            android:label="@string/title_activity_pratiwi" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Bogor"
+            android:label="@string/title_activity_bogor" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Islam"
+            android:label="@string/title_activity_islam" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Ciawi"
+            android:label="@string/title_activity_ciawi" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Meliana"
+            android:label="@string/title_activity_meliana" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.LoginActivity"
+            android:label="@string/title_activity_login_register" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.UserAreaActivity"
+            android:label="@string/title_activity_user_area" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Tambahkan"
+            android:label="@string/title_activity_tambahkan" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.List"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Website"
+            android:label="@string/title_activity_website" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Kontak"
+            android:label="@string/title_activity_kontak" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Lokasi"
+            android:label="@string/title_activity_lokasi" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.DetailArtikel"
+            android:label="@string/title_activity_detail_artikel" >
+        </activity>
+        <activity
+            android:name="com.example.denahrumahsakit.Map"
+            android:label="@string/title_activity_map" >
+        </activity>
+    </application>
+
+</manifest>
